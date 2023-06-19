@@ -1,0 +1,208 @@
+/*
+Student Name: Lejohn Thomas
+File Name: styles.css
+Date: 2/9/2023
+*/
+
+/*
+font-family: 'Golos Text', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+*/
+
+/* ----------- GEN RULES ----------- */
+
+html{
+    margin: auto;
+    padding: none;
+}
+body{
+    width: 100%;  
+}
+
+main{
+    font-family: 'Ysabeau', sans-serif;
+
+}
+
+a:link{
+    color: inherit;
+}
+
+
+
+/* ----------- HOME PAGE ----------- ----------- ----------- */
+.welcome{
+    display: flex;
+    margin-top: 30px;
+}
+
+.welcome-child{
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+.homePics{
+    margin-left: 40%;
+}
+
+.introP{
+    margin-left: 20%;
+    margin-right: 10%;
+    font-size: large;
+}
+
+table{
+    width: 100%;
+    border: 3px solid black;
+}
+
+tr{
+    text-align: center;
+    border: 1px solid black;
+}
+
+/*
+figure{
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+}
+figcaption{
+    max-width: 300px;
+    background-color: lightgray;
+    color: white
+}
+*/
+
+/* ----------- HBCU PAGE ----------- ----------- ----------- */
+.hbcupar{
+    text-align: center;
+    margin: 0% 5%;
+    font-size: x-large;
+}
+
+.hbcuimgs{
+    display: inline;
+    opacity: 50%;
+}
+
+.hbcutitle{
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+
+.hbcuheader{
+    position: relative;
+
+}
+
+
+/* ----------- CONTACT PAGE ----------- */
+iframe{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.contactInfo{
+    display: flex;
+}
+
+.resume{
+    vertical-align: middle;
+}
+
+.map{
+    vertical-align: middle;
+}
+
+.contactText{
+    text-align: center;
+
+}
+/* ----------- NAV BAR ----------- */
+nav{
+    
+
+    position: sticky;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 3%;
+
+    text-align: center;
+
+}
+
+nav ul{
+    padding: 0px 0px;
+}
+
+nav li{
+    display: inline;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: xx-large;
+    color: black;
+    padding: 19px 30px;
+    
+    text-decoration: none;
+}
+
+nav li a:link{
+    text-decoration: none;
+}
+
+
+/* ----------- FOOTER ----------- */
+footer{
+    text-align: center;
+    background-color: none;
+    position: sticky;
+    font-family: 'Golos Text', sans-serif;
+}
+
+footer i{
+    text-align: center;
+    padding-left: 5px;
+}
+
+footer a:link{
+    text-decoration: none;
+}
+
+/* ----------- IMAGES  ----------- */
+.welcomeimg{
+    border-radius: 25px;
+    transform: scale(1.25,1.15);
+}
+
+
+
+/* ----------- QUERYS ----------- */
+/*Media Query for Tablet Viewport*/
+@media only screen and (min-width: 620px), print{
+
+}
+
+/*Media Query for Large Desktop Viewports*/
+@media only screen and (min-width: 1921px){
+body{
+  background: linear-gradient(white, lightblue)
+}
+}  
+
+/*Media Query for Desktop Viewport*/
+@media only screen and (min-width:1000px), print{
+nav li:hover {
+  background-color: lightgray;
+  opacity: 75%;
+  text-shadow: 2px 2px lightgrey;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+}
