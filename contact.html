@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- 
+Student Name: Lejohn Thomas
+File Name: contact.html
+Date: 1/27/2023
+-->
+<html lang="en">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src ="scripts/script.js"></script>
+
+<style>
+    form{
+        border: black 2px solid;
+        padding: 10px;
+    }
+
+    html{
+        background-color: #B8D4E3;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Lora&family=Merriweather&family=Ysabeau&display=swap" rel="stylesheet">
+    <title>Lejohn Thomas - Home</title>
+</head>
+
+
+<nav>      
+    <ul> 
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="hbcu.html">HBCU Life</a></li>
+        <li><a href="community.html">Community Service</a></li>
+        <li><a href="robotics.html">Robotics</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<br><br><br>
+
+<body>
+    <main>
+        <article class = "contactInfo">
+            <div class = "resume">
+                <iframe src="media/resume.pdf" height = "800" width = "600" title = "Resume"></iframe>
+            </div>
+            <div class = "resume">
+                <div class = "contactText">
+                    <div style="margin-left: 45%;">
+                        <h1>Contact me anytime to find out more about me.</h1>
+                        <p>Email: <a href=mailto:ltconnection46@gmail.com></a>ltconnection46@gmail.com</a></p>
+                        <p>Phone: <a href="tel:5613608446">(561)-360-8446</a></p>
+                        <p>Location: 667 Robert and Trudie Perkins Wy, Tallahassee, FL 32310</p>
+                        <form>
+                            <label for="fname">First name: </label>
+                            <input type="text" id="fname" name="fname" value=""><br>
+                            <label for="lname">Last name: </label>
+                            <input type="text" id="lname" name="lname" value=""><br>
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" value=""><br>
+                            <input type="submit" onclick="form()" value="Submit">
+                        </form>
+                    </div>
+                    <iframe  class = "map" style ="margin-left: 25%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.25858681475!2d-84.29427818487576!3d30.428770681744147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ecf5151b814623%3A0x37184970ccacf7!2sFAMU%20Village!5e0!3m2!1sen!2sus!4v1679881212768!5m2!1sen!2sus" width="500" height="350" style="border:0;margin-left: 8%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </article>
+    
+    </main>
+
+</body>
+
+<footer>
+    <div class = footIcons>
+        <a href="mailto:ltconnection46@gmail.com"><i class="fa fa-envelope" style="font-size:24px"></i></a>
+        <i style="font-size:24px" class="fa"><a href="tel:5613608446">&#xf095;</a></i>
+        <a href = "https://www.linkedin.com/in/lejohn-thomas/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+    </div>
+    <p>&copy; Copyright 2023. All Rights Reserved.</p>
+</footer>
+
+</html>
